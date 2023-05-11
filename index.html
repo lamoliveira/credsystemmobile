@@ -5502,7 +5502,7 @@
             if (window.matchMedia("(max-width: 480px)").matches) {
                 //alert("I am a phone layout!");
                 devType = 'phone';
-                vWidth = 450;
+                vWidth = 420;
                 vHeight = 2000;
                 //options.device = 'phone';
             } else if (window.matchMedia("(max-width: 980px)").matches) {
@@ -5521,14 +5521,16 @@
             console.log("launch0")
             launchViz(0);
             console.log("launch1")
-            vHeight = 800;
-            launchViz(1);
             vHeight = 1000;
+            launchViz(1);
+            vHeight = 1800;
             console.log("launch2")
           
             launchViz(2);
             console.log("launch3")
+            vHeight = 1800;
              launchViz(3);
+             vHeight = 1200;
             launchViz(4);
             // vHideToolbar=true;
             //     vHideTabs= true;
